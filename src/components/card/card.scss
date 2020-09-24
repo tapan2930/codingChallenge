@@ -1,0 +1,142 @@
+.card{
+    margin: 1rem;
+    background-color: #eefde2;
+    position: relative;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.075);
+    border-radius: 10px;           
+
+
+    .imgcnt{
+        padding: 0 1rem;
+        text-align: center;
+        img{
+            position: relative;
+            top: -3.5rem;
+        }
+    }
+
+    .plantype{
+        padding:0 1rem;
+        position: relative;
+        text-align: center;
+        bottom: 3rem;
+       
+
+        .title{
+            font-size: 1.5rem;
+            color: rgba(0, 0, 0, 0.466);
+            margin: 0;
+        }
+        .percent{
+            color: #4642ee;
+            font-weight: 600;
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        div{
+            display: flex;
+            justify-content: center;
+
+            p{
+                margin: 0.3rem;
+                color:rgba(0, 0, 0, 0.466) ;
+            }
+
+            .highlight{
+                background-color: #00a86b;
+                border-radius: 5px;
+                color: white;
+                padding: 3px 5px;
+                font-weight: 700;
+            }
+        }
+
+    }
+
+    .rangeCnt{
+        position: relative;
+        bottom:2rem;
+        padding:0 1rem;
+        background-color: white;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.253);
+        .rangestats{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .range{
+            height: 10px;
+            background-color: rgb(226, 226, 226);
+            margin-bottom: 1rem;
+            border-radius: 5px;
+
+            div{
+                height: 10px;
+                width: 0;
+                border-radius: 5px;
+                background-color: #00c37d;
+            }
+        }
+    }
+
+    .includes{
+        position: relative;
+        // bottom:2rem;
+        margin-top: -30px;
+        padding:0.5rem 1rem;
+        background-color: white;
+
+        h3{
+            font-weight: 400;
+            color:rgba(0, 0, 0, 0.466) ;
+        }
+
+        ul{
+            list-style-type: none;
+            padding: 0;
+            li{
+                padding: 0;
+                margin: 1rem 0;
+            }
+        }
+
+        p{
+            color:rgba(0, 0, 0, 0.877) ;
+            font-weight: 300;
+            font-size: 0.8rem;
+        }
+    }
+
+    .offer{
+        padding: 1rem;
+        position: relative;
+        background-color:#c2f5e2 ;
+        margin-top: -10px;
+
+        .original{
+            text-decoration: line-through;
+        }
+
+        .attention{
+            font-weight: 600;
+            font-size: 1.5rem;
+            color:#118257;
+        }
+    }
+
+
+}
+
+
+@media only screen and (max-width: 750px) {
+    .card{
+        margin: 1rem;
+        background-color: #eefde2;
+        position: relative;
+        box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.075);
+        border-radius: 10px;      
+        margin-bottom: 5rem;     
+    }
+  }

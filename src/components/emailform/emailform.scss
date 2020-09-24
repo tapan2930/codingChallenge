@@ -1,0 +1,26 @@
+$text-primary-color: #7676767a;
+.emailform{
+    display: flex;
+    border: 1px solid $text-primary-color;
+    border-radius: 1.125rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+
+  
+
+
+    .emailinput{
+        border: none;
+        padding: 0 0 0 5px;
+        margin: 0;
+        font-size: 1.2rem;
+        color: rgba(0, 0, 0, 0.603);
+        outline: 0px;
+        width: 100%;
+    }
+
+    .btnCnt{
+        width: 16rem;
+    }
+}
+
+

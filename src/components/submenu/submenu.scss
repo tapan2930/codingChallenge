@@ -1,0 +1,65 @@
+.submenu{
+    position: relative;
+    margin: 0px 1rem;
+
+    p{
+        cursor: pointer;
+        position: relative;
+        
+    }
+}    
+    
+    .panel{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        padding: 2rem 1rem;
+        box-shadow: 5px 5px 12px rgb(179, 179, 179);
+        border-radius: 5px;
+        width: 120px;
+        background-color: white;
+        z-index: 10;
+
+        a{
+            color: rgba(0, 0, 0, 0.76);
+            text-decoration: none;
+            padding: 0.5rem;
+
+            &:hover{
+                color: black;
+            }
+        }
+    }
+
+    .submenu-cnt{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(128, 128, 128, 0.246);
+        z-index: 1;
+    }
+
+
+    @media only screen and (max-width: 750px) {
+        .panel{
+            display: flex;
+            box-shadow: none;
+            position: relative;
+            flex-direction: column;
+            padding:0 1rem;
+            width: 100%;
+            background-color: white;
+
+            a{
+                color: rgba(0, 0, 0, 0.76);
+                text-decoration: none;
+                padding: 0.5rem;
+    
+                &:hover{
+                    color: black;
+                }
+            }
+        }
+    }    

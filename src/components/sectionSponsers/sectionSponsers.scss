@@ -1,0 +1,42 @@
+.sectionSponsers{
+    
+    h3{
+        text-align: center;
+        font-weight: 400;
+        font-size: 2rem;
+        color : rgb(32, 32, 32)
+    }
+
+    .spCnt{
+        display: flex;
+        justify-content: space-around;
+
+        .imgCnt{
+            display: flex;
+            justify-content: center;
+            
+            img{
+                width: 150px;
+            }
+        }
+       
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .sectionSponsers{
+        margin-top: 4rem;
+        .spCnt{
+            display: flex;
+            justify-content:space-betwwen;
+            flex-direction: column;
+    
+            .imgCnt{
+                margin: 2rem 0;
+                display: flex;
+                justify-content: center;
+            }
+           
+        }
+    }
+  }

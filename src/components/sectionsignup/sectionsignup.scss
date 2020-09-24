@@ -1,0 +1,19 @@
+.sectionsignup{
+    .cardgrid{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 6rem;
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+    .sectionsignup{
+        .cardgrid{
+            display:grid;
+            grid-template-columns: 1fr;
+            margin-top: 6rem;
+        }
+    }
+    
+  }

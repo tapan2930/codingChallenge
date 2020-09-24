@@ -1,0 +1,55 @@
+$text-primary-color: #767676;
+.sectioninfo{
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 65% 1fr;
+    
+
+    .infoGrid{
+        
+        .subheadline{
+            color: #4642ee;
+            text-transform: capitalize;
+        }
+
+        .mainheadline{
+            font-size: 3rem;
+        }
+        
+        p{
+            color: $text-primary-color;
+            line-height: 30px;
+            letter-spacing: 1px;
+            font-size: 1.125rem;
+        }
+    }
+
+    .imgGrid{
+        display: flex;
+        align-content: center;
+        margin-left: 1rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 750px) {
+    .sectioninfo{
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+    .infoGrid{
+
+        .subheadline{
+            font-size: 1.5rem;
+        }
+
+        .mainheadline{
+            font-size: 2rem;
+        }
+    }
+    }
+        
+  }
